@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Z-index 1</title>
+      <style>
+        .box1 {
+          background-color:red;
+          position:absolute;
+          width:100px;
+          height:100px;
+          top:0px;
+          left:0px;
+          z-index:1;
+        }
+        .box2 {
+          background-color:green;
+          position:absolute;
+          width:100px;
+          height:100px;
+          top:20px;
+          left:0px;
+          z-index:2;
+        }
+        .box3 {
+          background-color:blue;
+          position:absolute;
+          width:100px;
+          height:100px;
+          top:40px;
+          left:0px;
+          z-index:3;
+        }
+
+        #a {
+          position:absolute;
+          top:120px;
+        }
+      </style>
+    </head>
+    
+    <body>
+      <div class="box1">
+        <p>box 1</p>
+      </div>
+
+      <div class="box2">
+        <p>box 2</p>
+      </div>
+
+      <div class="box3">
+        <p>box 3</p>
+
+        <div id="a">
+          <a href="index.html">Home</a>
+        </div>
+      </div>
+    </body>
+</html>
