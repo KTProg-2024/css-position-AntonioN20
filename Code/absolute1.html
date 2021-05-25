@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Z-index 2</title>
+      <title>Absolute 1</title>
       <style>
         .box1 {
           background-color:red;
@@ -10,28 +10,25 @@
           height:100px;
           top:0px;
           left:0px;
-          z-index:3;
         }
         .box2 {
-          background-color:green;
+          background-color:red;
           position:absolute;
           width:100px;
           height:100px;
-          top:20px;
-          left:0px;
-          z-index:2;
+          top:0px;
+          left:120px;
         }
         .box3 {
-          background-color:blue;
+          background-color:red;
           position:absolute;
           width:100px;
           height:100px;
-          top:40px;
-          left:0px;
-          z-index:1;
+          top:0px;
+          left:240px;
         }
 
-        #a {
+        .a {
           position:absolute;
           top:120px;
         }
@@ -49,10 +46,10 @@
 
       <div class="box3">
         <p>box 3</p>
+      </div>
 
-        <div id="a">
-          <a href="index.html">Home</a>
-        </div>
+      <div class="a">
+        <a href="../index.html">Home</a>
       </div>
     </body>
 </html>
