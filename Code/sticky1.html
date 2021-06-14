@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Sticky 1</title>
+      <style>
+        .bigbox {
+          background-color:;
+          color:yellow;
+          position:relative;
+          width:300px;
+          height:2000px;
+          top:100px;
+          left:112px;
+        }
+
+        #box1 {
+          background-color:red;
+          position:sticky;
+          width:100px;
+          height:100px;
+          top:0px;
+          left:0px;
+          color:black;
+        }
+
+        .box2 {
+          background-color:green;
+          position:absolute;
+          width:100px;
+          height:100px;
+          top:0px;
+          left:120px;
+        }
+
+        .box3 {
+          background-color:blue;
+          position:absolute;
+          width:100px;
+          height:100px;
+          top:0px;
+          left:240px;
+        }
+
+        .box4 {
+          background-color:yellow;
+          position:absolute;
+          width:340px;
+          height:2000px;
+          top:0px;
+          left:0px;
+          z-index:-10;
+        }
+
+        .a {
+          position:absolute;
+          top:2010px;
+        }
+      </style>
+    </head>
+    
+    <body>
+      <div class="bigbox">
+        <div id="box1">
+          <p>box 1</p>
+        </div>
+      </div>
+      
+      <div class="box2">
+        <p>box 2</p>
+      </div>
+
+      <div class="box3">
+        <p>box 3</p>
+      </div>
+
+      <div class="box4">
+        <p></p>
+      </div>
+
+       <div class="a">
+          <a href="../index.html">Home</a>
+        </div>
+    </body>
+</html>
